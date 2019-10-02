@@ -1,0 +1,183 @@
+* {
+	font-family: SourceSansPro-Regular;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+#main-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h2 {
+	text-align: center;
+	font-size: 240%;
+}
+
+.subtitle-logo {
+	position: relative;
+	width: 170px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.subtitle-logo img {
+	position: absolute;
+	top: -24px;
+	left: calc(50% - 22px);
+	width: 30px;
+	height: 33px;
+	border: 10px solid white;
+	background-color: white;
+
+}
+
+.subtitle-logo hr {
+	width: 100%;
+	border: none;
+	margin-top: 28px;
+	background-color: transparent;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	width: 100%;
+	height: 110px;
+	background-color: #2C3A47;
+	box-shadow: 5px 5px 5px grey;
+}
+
+#burger-menu-hidden-btn, #burger-menu-icon {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	border-radius: 10px;
+	height: 70px;
+	width: 70px;
+	display: none;
+}
+
+#burger-menu-hidden-btn {
+	z-index: 2;
+	opacity: 0;
+}
+
+#burger-menu-icon {
+	box-shadow: 0 0 0 1px white;
+	border-radius: 10px;
+	height: 60px;
+	width: 60px;
+	padding-top: 10px;
+	padding-left: 10px;
+	z-index: 1;
+}
+
+#burger-menu-icon i {
+	color: white;
+	font-size: 50px;
+}
+
+#burger-menu-hidden-btn:hover ~ div i {
+	color: orange;
+}
+
+#my-photo-contnr {
+	width: 90px;
+	height: 100px;
+	border-radius: 50%;
+	background-image: url('../res/ninja.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav li {
+	padding: 45px;
+	border-top: 3px solid transparent;
+	
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header nav li:hover {
+	border-top-color: white;
+
+}
+
+
+/**********************/
+/*SLIDER SECTION*/
+/**********************/
+
+
+#slider {
+	width: 200%;
+	height: 400px;
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.slider-item {
+	width: 50%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slider-img-first { 
+	background-image: url('../assets/slider-img-1.jpg');
+}
+
+.slider-img-last { 
+	background-image: url('../assets/slider-img-2.jpg');
+}
+
+.slider-chev-left {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	left: 0;
+}
+
+.slider-chev-right { 
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	right: 50%;
+}
+
+.slider-chev-left, .slider-chev-right {
+	position: absolute;
+	top: calc(50% - 30px);
+	font-size: 20px;
+	background-color: rgba(0,0,0, 0.5);
+	color: white;
+	width: 50px;
+	height: 50px;
+	padding: 8px;
+}

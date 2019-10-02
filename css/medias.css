@@ -1,0 +1,166 @@
+@media all and (max-width: 810px) {
+	
+	header {
+		height: 100px;
+		display: block;
+	}
+
+	#burger-menu-hidden-btn, #burger-menu-icon {
+		display: block;
+	}
+
+	#burger-menu-hidden-btn:checked ~ nav {
+		display: block;
+	}
+	
+	#burger-menu-hidden-btn:not(:checked) ~ nav {
+		display: none;
+	}
+
+	header nav {
+		position: absolute;
+		top: 80px;
+		left: calc(50% - 150px);
+		display: none;
+	}
+
+	header nav ul {
+		flex-direction: column;
+	}
+
+	header nav li {
+		padding: 10px;
+		border: 1px solid;
+		background-color: white;
+		color: black; 
+		width: 200px;
+	}
+
+	header nav li:first-child {
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+	}
+
+	header nav li:last-child {
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+	}
+
+	header nav li a { 
+		color: black;
+	}
+
+	header nav li:hover {
+		border-top-color: black;
+	}
+
+	header nav li:hover > a{
+		color: #faa;
+	}
+
+	#slider-section {
+		background-color: black;
+	}
+	
+	#slider-section-txt-container h1 {
+		font-size: 30px;
+	}	
+
+	#slider-section {
+		margin-top: 150px;
+		width: 96%;
+		margin-left: 2%;
+		height: 250px;
+		box-shadow: 0px 6px 6px 10px grey;
+	}
+
+	#slider-img-1, #slider-img-2, #slide-input, #slider-input-hide-middle, .slider-chevron {
+		display: none;
+	}
+
+
+	#competences-section > p { 
+		width: 305px;
+	}
+
+	#competences-grid-container {
+	  grid-template-columns: 20px auto;
+	}
+
+	#competences-img-container {
+	  grid-column: 1 / span 3;
+	  text-align: center;
+	}
+
+	#competences-img-container img {
+		max-width: 300px;
+		margin-left: -65px;
+	}
+
+	.competences-icon-paragraph {
+		grid-column: 2;
+		height: 70px;
+	}
+
+	.competences-paragraph {
+		grid-column: 2;
+		height: 200px;
+		margin-top: -30px;
+	}
+
+	.competences-paragraph p {
+		padding-right: 80px;
+	}
+}
+
+@media all and (min-width: 811px) and (max-width: 1160px) {
+	#slider-section {
+		height: 500px;
+	}
+	 
+	* {
+		font-size: 105%;
+	}
+}
+
+@media all and (min-width: 1161px) and (max-width: 1510px) {
+	#slider-section {
+		height: 650px;
+	}
+
+	* {
+		font-size: 110%;
+	}
+
+	h1 {
+		font-size: 70px;
+	}
+}
+
+@media all and (min-width: 1511px) and (max-width: 2000px) {
+	#slider-section {
+		height: 800px;
+	}
+
+	* {
+		font-size: 110%;
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+}
+
+@media all and (min-width: 2001px) {
+	#slider-section {
+		height: 1000px;
+	}
+
+	* {
+		font-size: 110%;
+	}
+	h1 {
+		font-size: 80px;
+	}
+}
