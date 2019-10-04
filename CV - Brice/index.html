@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CV D'UN NINJA DEVELOPPEUR</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/a814fbe335.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="item1">
+                    <header class="header">
+                            <a href="" class="logo"><i class="fab fa-github"></i></a>
+                            <input class="menu-btn" type="checkbox" id="menu-btn" />
+                            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                            <ul class="menu">
+                              <li><a href="#accueil">Accueil</a></li>
+                              <li><a href="#experiences">Exp&eacute;riences</a></li>
+                              <li><a href="#services">Services</a></li>
+                            </ul>
+                    </header>
+            </div>
+                <div class="item2">
+                    <article id="slider">
+                            <input checked type='radio' name='slider' id='slide1'/>
+                            <input type='radio' name='slider' id='slide2'/>
+                            <div id="slides">
+                                <div id="container">
+                                    <div class="inner">
+                                        <article>
+                                        <div class="caption">
+                                            <h1 class="caption-text">CV d'un <b style="color:#3498db">futur</b> développeur fullstack/backend</h1>
+                                        </div>
+                                        <div class="subcaption">
+                                            <h3 class="subcaption-text">L'occasion d'en apprendre un peu plus sur mes projets, ma vie, mon oeuvre!</h3>
+                                        </div>
+                                        <img src="img/Full-Stack-Developer.jpg"/>
+                                        </article>
+                                        <article>
+                                        <img src="img/front-end.jpg"/>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="commands">
+                                <label for='slide1'><i class="fas fa-chevron-left"></i></label>
+                                <label for='slide2'><i class="fas fa-chevron-right"></i></label>
+                            </div>
+                            <div id="active">
+                                <label for='slide1'></label>
+                                <label for='slide2'></label>
+                            </div>
+                    </article>   
+                </div>
+                <div class="item3" id="experiences">
+                    <h2 class="skil-text">Mes Compétences</h2>
+                    <hr class="border-skill">
+                    <p class="desc-skill">Professionnel du code, le développeur doit répondre aux exigences d'un secteur en constante évolution, et avoir la capacité de se remettre régulièrement en question face à l'arrive de nouvelles technologies. Le étier est ainsi à la fois exigeant, et passionnant. Zoom sur ses compétences clefs.</p>
+                </div>
+                <div class="item4">
+                    <img src="img/Front.png" class="image-front"/>
+                </div>
+                <div class="item5">
+                    <div class="content-grid">
+                        <div class="circle-class">
+                            <span class="big-circle"><i class="fas fa-desktop"></i></span>
+                        </div>
+                        <div class="desc-grid">
+                            <p><b>Frontend Development</b></p>
+                            <p>Lorsque l'on parle de "Front-End", il s'agit finalement des éléments du site que 'lon voit à l'écran et avec lesquels on peut intéragir. Ces éléments sont composés de HTML, 
+                             CSS et de Javascript controlés par le navigateur web de l'utilisateur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item6">
+                        <div class="content-grid">
+                            <div class="circle-class">
+                                <span class="big-circle" style="width: 75px;"><i class="fas fa-database"></i></span>
+                            </div>
+                            <div class="desc-grid">
+                                <p><b>Backend Development</b></p>
+                                <p>Le Back-End, c'est un peu comme la partie immergée de l'iceberg. Elle est invisible pour les visiteurs mais représente une grande partie du développement d'un projet web. Sans elle, le site web reste une coquille vide.</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="item7">
+                        <div class="content-grid">
+                            <div class="circle-class">
+                                <span class="big-circle" style="width: 75px;"><i class="fas fa-paint-roller"></i></span>
+                            </div>
+                            <div class="desc-grid">
+                                <p><b>Integrateur Graphiste</b></p>
+                                <p>Personne créative et minutieuse, à l’aise autant en création qu’en intégration (Wordpress). La personne retenue participera à la création, à la réalisation, à l’intégration, à la mise à jour de sites Web,
+                                aux formations Wordpress/Mailchimp/Zoho des clients ainsi qu’aux services clients.</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="item8" id="services">
+                    <h2 class="skil-text">Mes Services Proposés</h2>
+                    <hr class="border-skill">
+                    <p>Voici quelques-uns de mes services que je propose :</p>
+                </div>
+                <input class="rb" name="contact-preference" id="radio-all" type="radio" checked="checked" />
+                <label class="label all" for="radio-all">Tous</label>
+                <input class="rb" name="contact-preference" id="radio-mobile" type="radio" />
+                <label class="label dev" for="radio-mobile">Projet Mobile</label>
+                <input class="rb" name="contact-preference" id="radio-web" type="radio" />
+                <label class="label info" for="radio-web">Projet Web</label>
+                <div class="item9">
+                    <div class="dev-div mobile">
+                        <img src="img/mobile.jpg" />
+                        <p class="txt-desc-skill"><i class="fas fa-mobile-alt"></i> Application Mobile</p>
+                        <p>Project Mobile</p>
+                    </div>
+                    <div class="info-div web">
+                            <img src="img/developpement-front-end.png" />
+                        <p class="txt-desc-skill"><i class="fas fa-laptop-code"></i> Site Web</p>
+                        <p>Projet Web</p>
+                    </div>
+                    <div class="dev-div mobile">
+                        <img src="img/mobile.jpg" />
+                        <p class="txt-desc-skill"><i class="fas fa-mobile-alt"></i> Application Mobile</p>
+                        <p>Project Mobile</p>
+                    </div>
+                    <div class="info-div web">
+                            <img src="img/developpement-front-end.png" />
+                        <p class="txt-desc-skill"><i class="fas fa-laptop-code"></i> Site Web</p>
+                        <p>Projet Web</p>
+                    </div>
+                    <div class="dev-div mobile">
+                            <img src="img/mobile.jpg" />
+                        <p class="txt-desc-skill"><i class="fas fa-mobile-alt"></i> Application Mobile</p>
+                        <p>Project Mobile</p>
+                    </div>
+                    <div class="info-div web">
+                            <img src="img/developpement-front-end.png" />
+                        <p class="txt-desc-skill"><i class="fas fa-laptop-code"></i> Site Web</p>
+                        <p>Projet Web</p>
+                    </div>
+                    <div class="dev-div mobile">
+                            <img src="img/mobile.jpg" />
+                        <p class="txt-desc-skill"><i class="fas fa-mobile-alt"></i> Application Mobile</p>
+                        <p>Project Mobile</p>
+                    </div>
+                    <div class="info-div web">
+                            <img src="img/developpement-front-end.png" />
+                        <p class="txt-desc-skill"><i class="fas fa-laptop-code"></i> Site Web</p>
+                        <p>Projet Web</p>
+                    </div>
+                    <div class="dev-div mobile">
+                            <img src="img/mobile.jpg" />
+                        <p class="txt-desc-skill"><i class="fas fa-mobile-alt"></i> Application Mobile</p>
+                        <p>Project Mobile</p>
+                    </div>
+                    <div class="info-div web">
+                            <img src="img/developpement-front-end.png" />
+                        <p class="txt-desc-skill"><i class="fas fa-laptop-code"></i> Site Web</p>
+                        <p>Projet Web</p>
+                    </div>
+                </div>
+        </div>
+        <footer class="navbar-nav">
+                <div><a href="https://github.com/birbo971"><i class="fab fa-github"></i></a></div>
+                <div><a href="https://www.linkedin.com/in/brice-vignal-302307146/"><i class="fab fa-linkedin"></i></a></div>
+        </footer>
+    </body>
+</html>

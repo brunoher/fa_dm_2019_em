@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Nicolas Durocher | Développeur Web Front-End">
+    <link rel="icon" href="http://www.pngall.com/wp-content/uploads/2016/06/Ninja-PNG-Picture.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Nicolas Durocher | CV</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="cv" class="wrapper">
+
+      <header class="header">
+          <a href="#"><img src="http://www.pngall.com/wp-content/uploads/2016/06/Ninja-PNG-Picture.png" alt="Logo" class="logo"></a>
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+          <ul class="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#skills">Expérience</a></li>
+            <li><a href="#projects">Projets</a></li>
+          </ul>
+      </header>
+
+      <div class="carousel">
+        <div class="carousel-description">
+          <h1 class="carousel-title">CV d'un <span class="blue">ninja</span> développeur</h1>
+          <p class="carousel-subtitle">L'occasion d'en apprendre un peu plus sur mes projets, ma vie, mon oeuvre&nbsp;!</p>
+        </div>
+        <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+                <div class="slide-image first"></div>
+                <div class="carousel-controls">
+                    <label class="prev-slide">
+                        <div class="icon-circle"></div>
+                        <i class="icon fas fa-chevron-left"></i>
+                    </label>
+                    <label for="img-2" class="next-slide">
+                        <div class="icon-circle"></div>
+                            <i class="icon fas fa-chevron-right"></i>
+                    </label>
+                </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+                <div class="slide-image second"></div>
+                <div class="carousel-controls">
+                    <label for="img-1" class="prev-slide">
+                        <div class="icon-circle"></div>
+                        <i class="icon fas fa-chevron-left"></i>
+                    </label>
+                    <label class="next-slide">
+                        <div class="icon-circle"></div>
+                        <i class="icon fas fa-chevron-right"></i>
+                    </label>
+                </div>
+            </li>
+        </ul>
+      </div>
+
+      <section class="skills" id="skills">
+        <div class="presentation">
+         
+          <h2> Mes compétences</h2>
+          
+          <div class="separation">
+              <div class="separation-line"> </div>
+              <img src="http://www.pngall.com/wp-content/uploads/2016/06/Ninja-PNG-Picture.png" alt="Logo" class="separation-logo">
+          </div>
+
+          <p>Développeur Front-End au sein d'une agence digitale spécialisée dans la conception d'animations et d'événements pour de grands annonceurs. Je pratique le code depuis 2 ans et je souhaite continuer mon parcours en développant mes compétences en VueJs et NodeJs dans l'optique de devenir Développeur JS.</p>
+        </div>
+
+        <div class="description">
+          <img src="http://englishbookgeorgia.com/blogebg/wp-content/uploads/2018/02/outsourcing-product-development.jpg" alt="Skills Illustration" class="illustration">
+          <div class="skillsList">
+            <div class="skills-group">
+              <div class="picto">
+                  <i class="fas fa-desktop icon fa-2x"></i>
+                  <div class="circle"></div>
+              </div>
+              <div class="level">
+                <h4>Front-End developer</h4>
+                <p>Pratique quotidienne de VueJs ainsi que de Vanilla Js,  intégration de maquette avec le préprocesseur Sass. Lorsque l'on parle de FrontEnd, il s'agit finalement des éléments du site que l'on voit à l'écran et avec lesquels on peut interagir.</p> 
+              </div>
+            </div>
+
+            <div class="skills-group">
+                <div class="picto">
+                    <i class="fas fa-database icon fa-2x"></i>
+                    <div class="circle"></div>
+                </div>
+                <div class="level">
+                  <h4>Back-End developer</h4>
+                  <p>Pratique régulière de NodeJs. 
+                    Notion de MySql ainsi que de PHP. Le Back-End, c'est un peu comme la partie immergée de l'iceberg. Elle est invisible pour les visiteurs mais représente une grande partie du développement d'un projet web.</p> 
+                </div>
+
+            </div>
+
+            <div class="skills-group">
+              <div class="picto">
+                <i class="fas fa-paint-roller icon fa-2x"></i>
+                <div class="circle"></div>
+              </div>
+              <div class="level">
+                <h4>Présentation perso</h4>
+                <p>Rigoureux et minutieux, j'adore le développement Front-End et souhaite continuer dans ce domaine en accumulant les connaissances et développant mes compétences et savoirs-faire en Javascript.</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Mes Projets</h2>
+
+        <div class="project-container" id="project-container">
+            <label for="all">Tous mes projets</label>
+            <input type="radio" name="project" id="all" value="all">  
+            <label for="mobile">Projets Mobile</label>
+            <input type="radio" name="project" id="mobile" value="Projet mobile">
+            <label for="web">Projets Web</label>  
+            <input type="radio" name="project" id="web" value="Projet web"> 
+
+          <br>
+
+          <div class="project-item all web">
+              <img src="https://www.placecage.com/200/200">
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all mobile">
+              <img src="https://placekitten.com/200/200
+              ">
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all web">
+              <img src="https://loremflickr.com/200/200?random=4" />
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all mobile">
+              <img src="https://loremflickr.com/200/200?random=8" />
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all web">
+              <img src="https://placekitten.com/200/200">   
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all web">
+              <img src="https://loremflickr.com/200/200?random=9" />
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all mobile">
+              <img src="https://loremflickr.com/200/200?random=3" />
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all mobile">
+              <img src="https://loremflickr.com/200/200?random=2" />
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all web">
+              <img src="https://loremflickr.com/200/200?random=6" />
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+
+          <div class="project-item all web">
+              <img src="https://loremflickr.com/200/200?random=1" />
+              <div class="project-text">Mon super projet décrit en quelques lignes</div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <script src="/lib/all.min.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>
