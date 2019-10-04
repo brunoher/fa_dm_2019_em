@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio 2019 pour mettre en avant mes projets d'études et professionnels afin de trouver un CDI le plus vite possible." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="ninja">
+            <a href="#" class="logo"><img src="img/ninja-girl-70px.png" alt="ninja girl" title="ninja girl"></a>
+            <label class="menu-icon" for="menu-btn"><i class="fas fa-hamburger"></i></label>
+        </div>
+
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+
+            <ul class="menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#projet">Projets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br />
+    <main>
+
+        <section id="accueil" class="slider">
+            <div class="diapo">
+                <!-- Don't wrap targets in parent -->
+                <div id="s1"></div>
+                <div id="s2"></div>
+                <div class="text-slider">
+                    <h1>CV D'UNE <span>NINJA</span> DEVELOPPEUSE WEB</h1>
+                    <p>L'occasion d'en apprendre un peu plus sur mes projets, ma vie, mon oeuvre !</p>
+                </div>
+                <div class="slider">
+
+                    <div class="fond"></div>
+                    <div class="fond2"></div>
+                </div>
+
+                <div class="prevNext">
+                    <div><a href="#s1"><i class="fas fa-chevron-left"></i></a><a href="#s2"><i
+                                class="fas fa-chevron-right"></i></a></div>
+
+                    <div><a href="#s2"><i class="fas fa-chevron-left"></i></a><a href="#s1"><i
+                                class="fas fa-chevron-right"></i></a></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <h2 id="experiences">Mes compétences</h2>
+        <hr class="barre-separation">
+        <p class="w-50">Professionnelle du code, le développeur doit répondre aux exigences d'un secteur en constante
+            évolutions, et avoir la capacité de se remettre régulièrement en question face à l'arrivé de nouvelle s
+            technologies. Le métierest ainsi à la fois exigeant, et passionnant. Zoom sur ses compétences clefs.</p>
+
+        <div class="experiences">
+            <aside>
+                <img src="./img/dual-screen-400px.jpg" alt="" />
+            </aside>
+
+            <div id="wrapper">
+                <div class="section-txt">
+                    <div>
+                        <p><span><i class="fas fa-desktop"></i></span></p>
+                    </div>
+                    <section>
+                        <h3>Front-end Developement</h3>
+                        <p>Lorsque l'on parle de front-end, il s'agit finalement des éléments du site que l'on voit à
+                            l'écran et avec lesquels
+                            on peut intéragir. Ces éléments sont composés de HTML, CSS et de Javascript contrôlés par le
+                            navigateur web de
+                            l'utilisateur</p>
+                    </section>
+                </div>
+
+                <div class="section-txt">
+                    <div>
+                        <p><span><i class="fas fa-desktop"></i></span></p>
+                    </div>
+                    <section>
+                        <h3>Backend Developement</h3>
+                        <p>Le back-end, c'est un peu comme la partie immergée de l'iceberg. Elle est invisible pour les
+                            visiteurs mais
+                            représente une grande partie du développement d'un projet web. Sans elle, le site web reste
+                            une coquille vide.</p>
+                    </section>
+                </div>
+
+
+                <div class="section-txt">
+                    <div>
+                        <p><span><i class="fas fa-paint-roller"></i></span></p>
+                    </div>
+                    <section>
+                        <h3>Intégrateur graphique</h3>
+                        <p>Personne créative et minutieuse, à l'aise autant en création qu'en intégration (Wordpress).
+                            La personne retenue
+                            participera à la création, à la réalisation, à l'intégration, à la mise à jour de sites web,
+                            aux formations
+                            Wordpress/MailChimp/Zoho des clients ainsi qu'aux services clients</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+        <h2 id="projet">Les projets</h2>
+        <section class="container">
+            <input type="radio" id="webdesign" name="color" />
+            <label for="webdesign">Webdesign</label>
+            <input type="radio" id="dev" name="color" />
+            <label for="dev">Développement web</label>
+            <input type="radio" id="infographie" name="color" />
+            <label for="infographie">Infographie</label>
+            <input type="radio" id="application" name="color" />
+            <label for="application">Applications</label>
+            <input type="radio" id="tous" name="color" />
+            <label for="tous">Tous</label>
+        
+       <br/>
+            <div class=" projet-txt item webdesign">
+                <img src="./img/projets/img2.jpg"/>
+                <div>
+                    <p>Description du projets</p>
+                </div>
+            </div>
+            <div class="projet-txt item dev">
+                <img src="./img/projets/img2.jpg" />
+                <div>
+                    <p>Description du projets</p>
+                </div>
+            </div>
+            <div class="projet-txt item application">
+                <img src="./img/projets/img1.jpg" />
+                <div>
+                    <p>Description du projets</p>
+                </div>
+            </div>
+            <div class="projet-txt item infographie">
+                <img src="https://loremflickr.com/248/165?random=7" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item dev">
+                <img src="./img/projets/img3.jpg" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item webdesign">
+                <img src="./img/projets/img2.jpg" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item application">
+                <img src="./img/projets/img1.jpg" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item dev">
+                <img src="./img/projets/img3.jpg" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item infographie">
+                <img src="https://loremflickr.com/248/165?random=8" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item webdesign">
+                <img src="./img/projets/img2.jpg" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item application">
+                <img src="./img/projets/img1.jpg" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+            <div class="projet-txt item infographie">
+                <img src="https://loremflickr.com/248/165?random=5" />
+            <div>
+                <p>Description du projets</p>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portfolio - 2019</p>
+    </footer>
+
+    <script src="./lib/js/all.min.js"></script>
+</body>
+
+</html>
